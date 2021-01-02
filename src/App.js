@@ -287,7 +287,7 @@ export default class App extends Component {
             </div>
           </div>
         </div>
-        <div className='bgimg' id='bgimg-experience' style={{backgroundImage: `url(${UniversityCincinnati})`}}>
+        <div className='bgimg' id='bgimg-experience'>
           <div className='caption'>
             <span className='border'>EXPERIENCE</span>
           </div>
