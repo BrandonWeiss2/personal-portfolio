@@ -143,6 +143,10 @@ body {
     opacity: 85%;
   }
 
+  #bgimg-main {
+    background-image: url('./cincinnati-skyline.jpg');
+  }
+
   #section-about, #section-projects, #section-experience, #section-contact {
     color: #878a8b;
     padding: 50px 70px;
@@ -287,7 +291,7 @@ body {
 
   .panel {
     padding: 0 18px;
-    background-color: white;
+    background-color: #595959;
     display: none;
     overflow: hidden;
   }
@@ -305,6 +309,10 @@ body {
   .education-header h3, .experience-header h3 {
     display: flex;
     justify-content: space-between;
+  }
+
+  #section-experience li, #section-projects p, #section-about p {
+    text-align: left;
   }
 }
 
