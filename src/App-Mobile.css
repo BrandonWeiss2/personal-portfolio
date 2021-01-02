@@ -158,11 +158,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
-    opacity: 85%;
-  }
-
-  #bgimg-main {
-    background-image: url(./static/images/cincinnati-skyline.jpg);
+    opacity: .85;
   }
 
   #section-about, #section-projects, #section-experience, #section-contact {

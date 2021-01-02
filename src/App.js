@@ -10,7 +10,7 @@ import MailCircle from './static/images/mail-circle.png'
 import PhoneCircle from './static/images/phone-circle.png'
 import GithubCircle from './static/images/github-circle.png'
 import Resume from './BrandonWeissResume.pdf'
-// import CincinnatiSkyline from './cincinnati-skyline.jpg'
+import CincinnatiSkyline from './static/images/cincinnati-skyline.jpg'
 import CincinnatiMuseum from './static/images/cincinnati-museum.jpg'
 import UniversityCincinnati from './static/images/university-cincinnati.jpg'
 import WashingtonPark from './static/images/washington-park.jpg'
@@ -159,7 +159,7 @@ export default class App extends Component {
             <FontAwesomeIcon icon={faBars} className='burger-icon'/>
           </button>
         </div>
-        <div className='bgimg' id='bgimg-main'>
+        <div className='bgimg' id='bgimg-main' style={{backgroundImage: `url(${CincinnatiSkyline})`}}>
           <div className='caption'>
             <p className='border'>BRANDON WEISS</p>
           </div>
