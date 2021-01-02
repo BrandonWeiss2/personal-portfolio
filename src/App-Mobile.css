@@ -151,19 +151,19 @@
   
 
   #bgimg-main {
-    background-image: url('./images/cincinnati-skyline.jpg');
+    background-image: url('./static/cincinnati-skyline.jpg');
   }
 
   #bgimg-projects {
-    background-image: url('./images/cincinnati-museum.jpg');
+    background-image: url('./static/cincinnati-museum.jpg');
   }
 
   #bgimg-experience {
-    background-image: url('./images/university-cincinnati.jpg');
+    background-image: url('./static/university-cincinnati.jpg');
   }
 
   #bgimg-contact {
-    background-image: url('./images/washington-park.jpg');
+    background-image: url('./static/washington-park.jpg');
   }
   
   .bgimg {

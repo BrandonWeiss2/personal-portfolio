@@ -1,14 +1,14 @@
 
 import React, { Component } from 'react';
-import Icon from './images/Icon.png';
-import Headshot from './images/headshot.jpg'
-import TaxHub from './images/tax-hub.jpg';
-import OtakuRisuto from './images/OtakuRisuto.png'
-import SpacedRepetition from './images/spaced-repetition.png'
-import LinkedinCircle from './images/linkedin-circle.png'
-import MailCircle from './images/mail-circle.png'
-import PhoneCircle from './images/phone-circle.png'
-import GithubCircle from './images/github-circle.png'
+import Icon from './static/Icon.png';
+import Headshot from './static/headshot.jpg'
+import TaxHub from './static/tax-hub.jpg';
+import OtakuRisuto from './static/OtakuRisuto.png'
+import SpacedRepetition from './static/spaced-repetition.png'
+import LinkedinCircle from './static/linkedin-circle.png'
+import MailCircle from './static/mail-circle.png'
+import PhoneCircle from './static/phone-circle.png'
+import GithubCircle from './static/github-circle.png'
 import Resume from './BrandonWeissResume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
