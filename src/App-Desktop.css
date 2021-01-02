@@ -144,7 +144,7 @@ body {
   }
 
   #bgimg-main {
-    background-image: url('./cincinnati-skyline.jpg');
+    background-image: url(cincinnati-skyline.jpg);
   }
 
   #section-about, #section-projects, #section-experience, #section-contact {
