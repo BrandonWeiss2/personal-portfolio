@@ -45,36 +45,13 @@ body {
     display: none;
   }
 
-  .icon-bar {
-    position: fixed;
-    top: 50%;
-    z-index: 10;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-
-  .icon-bar a {
-    display: block;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 15px;
-    width: 45px;
-    height: 45px;
-  }
-
-  .icon-bar a img{
-    width: 45px;
-    height: 45px;
-  }
-
   .nav-links {
     float: right;
     margin-top: -66px;
     margin-right: 60px;
   }
 
-  .nav-links a {
+  .nav-links button {
     color:  #595959;
     margin-top: 14px;
     margin-left: 20px;
@@ -84,6 +61,9 @@ body {
     letter-spacing: 2px;
     display: block;
     float: left;
+    border: none;
+    background: none;
+
   }
 
   #jump-about, #jump-projects, #jump-experience, #jump-contact {
@@ -91,7 +71,7 @@ body {
     top: -82px;
   }
 
-  a hr {
+  button hr {
     width: 100%;
     border: none;
     height: 2px;
@@ -100,7 +80,7 @@ body {
   }
 
   
-  a:hover hr {
+  button:hover hr {
     background-color:  #595959;
     display: block;
   }
@@ -111,7 +91,7 @@ body {
   }
 
 
-  .nav-links a:visited, .nav-links a:active {
+  .nav-links button:visited, .nav-links button:active {
     text-decoration: none;
     color: black
   }

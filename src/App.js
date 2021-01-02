@@ -143,13 +143,13 @@ export default class App extends Component {
       <>
         <div className='top-nav' id='top-nav'>
           <div className='nav-icon'>
-            <img className='icon' src={Icon}></img>
+            <img className='icon' src={Icon} alt='Brandon Weiss Icon'></img>
           </div>
-          <div className='nav-links' id='nav-links' style={{display:'none'}}>
-            <a id='nav-about' onClick={() => this.handleScrollToDiv('jump-about')}>ABOUT<hr></hr></a>
-            <a id='nav-projects' onClick={() => this.handleScrollToDiv('jump-projects')}>PROJECTS<hr></hr></a>
-            <a id='nav-experience' onClick={() => this.handleScrollToDiv('jump-experience')}>EXPERIENCE<hr></hr></a>
-            <a id='nav-contact' onClick={() => this.handleScrollToDiv('jump-contact')}>CONTACT<hr></hr></a>
+          <div className='nav-links' id='nav-links'>
+            <button id='nav-about' onClick={() => this.handleScrollToDiv('jump-about')}>ABOUT<hr></hr></button>
+            <button id='nav-projects' onClick={() => this.handleScrollToDiv('jump-projects')}>PROJECTS<hr></hr></button>
+            <button id='nav-experience' onClick={() => this.handleScrollToDiv('jump-experience')}>EXPERIENCE<hr></hr></button>
+            <button id='nav-contact' onClick={() => this.handleScrollToDiv('jump-contact')}>CONTACT<hr></hr></button>
           </div>
           <button className='burger-icon-a' onClick={() => this.handleHamburger(document.getElementById('nav-links'), document.getElementById('top-nav'))}>
             <FontAwesomeIcon icon={faBars} className='burger-icon'/>
@@ -181,7 +181,7 @@ export default class App extends Component {
               </ul>
             </div>
           </div>
-          <img id='headshot' src={Headshot}></img>
+          <img id='headshot' src={Headshot} alt='Brandon Weiss headshot'></img>
         </div>
         <div className='bgimg' id='bgimg-projects'>
           <div className='caption'>
@@ -218,7 +218,7 @@ export default class App extends Component {
                 </div>
               </div>
               <div className='img-wrapper'>
-                <img id='tax-hub-img' src={TaxHub}></img>
+                <img id='tax-hub-img' src={TaxHub} alt='taxhub screenshot'></img>
               </div>
             </div>
             <hr></hr>
@@ -248,7 +248,7 @@ export default class App extends Component {
                 </div>
               </div>
               <div className='img-wrapper'>
-                <img id='otaku-risuto-img' src={OtakuRisuto}></img>
+                <img id='otaku-risuto-img' src={OtakuRisuto} alt='otaku risuto screenshot'></img>
               </div>
             </div>
             <hr></hr>
@@ -278,7 +278,7 @@ export default class App extends Component {
                 </div>
               </div>
               <div className='img-wrapper'>
-                <img id='spaced-repetition-img' src={SpacedRepetition}></img>
+                <img id='spaced-repetition-img' src={SpacedRepetition} alt='spaced repetition screenshot'></img>
               </div>
             </div>
           </div>
@@ -292,7 +292,7 @@ export default class App extends Component {
           <a id='jump-experience'></a>
           <div className='education-container'>
             <div className='download'>
-              <a href={Resume} download='BrandonWeissResume' className='download-link' target='_blank' >Download Resume</a>
+              <a href={Resume} download='BrandonWeissResume' className='download-link' target='_blank' rel="noreferrer">Download Resume</a>
             </div>
             <button className='accordion'>
               <span>Education</span>
@@ -378,10 +378,10 @@ export default class App extends Component {
             <p>If you want to collaborate on any web or mobile applications, please feel free to reach out.</p>
             <p>I'm available for freelance projects and full-time employment.</p>
             <div className='contact-icon-container'>
-              <a href='https://www.linkedin.com/in/brandon-weiss-cpa-7450022b/' target='_blank' rel='noreferrer'><img src={LinkedinCircle}></img></a>
-              <a href='mailto:brandonweiss2008@gmail.com'><img src={MailCircle}></img></a>
-              <a href='tel:513-307-2009'><img src={PhoneCircle}></img></a>
-              <a href='https://github.com/BrandonWeiss2' target='_blank' rel='noreferrer'><img src={GithubCircle}></img></a>
+              <a href='https://www.linkedin.com/in/brandon-weiss-cpa-7450022b/' target='_blank' rel='noreferrer'><img src={LinkedinCircle} alt='linkedin Icon'></img></a>
+              <a href='mailto:brandonweiss2008@gmail.com'><img src={MailCircle} alt='mail Icon'></img></a>
+              <a href='tel:513-307-2009'><img src={PhoneCircle} alt='phone Icon'></img></a>
+              <a href='https://github.com/BrandonWeiss2' target='_blank' rel='noreferrer'><img src={GithubCircle} alt='github Icon'></img></a>
             </div>
           </div>
         </div>
