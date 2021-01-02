@@ -10,6 +10,10 @@ import MailCircle from './static/mail-circle.png'
 import PhoneCircle from './static/phone-circle.png'
 import GithubCircle from './static/github-circle.png'
 import Resume from './BrandonWeissResume.pdf'
+import CincinnatiSkyline from './static/cincinnati-skyline.jpg'
+import CincinnatiMuseum from './static/cincinnati-museum.jpg'
+import UniversityCincinnati from './static/university-cincinnati.jpg'
+import WashingtonPark from './static/washington-park.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import './App-Desktop.css';
@@ -155,7 +159,7 @@ export default class App extends Component {
             <FontAwesomeIcon icon={faBars} className='burger-icon'/>
           </button>
         </div>
-        <div className='bgimg' id='bgimg-main'>
+        <div className='bgimg' id='bgimg-main' style={{backgroundImage: `url(${CincinnatiSkyline})`}}>
           <div className='caption'>
             <p className='border'>BRANDON WEISS</p>
           </div>
@@ -183,7 +187,7 @@ export default class App extends Component {
           </div>
           <img id='headshot' src={Headshot} alt='Brandon Weiss headshot'></img>
         </div>
-        <div className='bgimg' id='bgimg-projects'>
+        <div className='bgimg' id='bgimg-projects' style={{backgroundImage: `url(${CincinnatiMuseum})`}}>
           <div className='caption'>
             <span className='border'>PROJECTS</span>
           </div>
@@ -283,7 +287,7 @@ export default class App extends Component {
             </div>
           </div>
         </div>
-        <div className='bgimg' id='bgimg-experience'>
+        <div className='bgimg' id='bgimg-experience' style={{backgroundImage: `url(${UniversityCincinnati})`}}>
           <div className='caption'>
             <span className='border'>EXPERIENCE</span>
           </div>
@@ -365,7 +369,7 @@ export default class App extends Component {
             </div>
           </div>
         </div>
-        <div className='bgimg' id='bgimg-contact'>
+        <div className='bgimg' id='bgimg-contact' style={{backgroundImage: `url(${WashingtonPark})`}}>
           <div className='caption'>
             <span className='border'>CONTACT</span>
           </div>

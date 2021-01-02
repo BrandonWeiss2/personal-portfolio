@@ -133,21 +133,21 @@ body {
   }
   
 
-  #bgimg-main {
+  /* #bgimg-main {
     background-image: url('./static/cincinnati-skyline.jpg');
-  }
-
+  } */
+/* 
   #bgimg-projects {
     background-image: url('./static/cincinnati-museum.jpg');
-  }
+  } */
 
-  #bgimg-experience {
+  /* #bgimg-experience {
     background-image: url('./static/university-cincinnati.jpg');
-  }
-
+  } */
+/* 
   #bgimg-contact {
     background-image: url('./static/washington-park.jpg');
-  }
+  } */
   
   .bgimg {
     position: relative;
