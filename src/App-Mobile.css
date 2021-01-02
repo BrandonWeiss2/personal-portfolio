@@ -88,6 +88,7 @@
     background: none;
     width: 100%;
     text-align: left;
+    outline: none;
   }
 
   
@@ -110,7 +111,8 @@
 
   .nav-links button:visited, .nav-links button:active {
     text-decoration: none;
-    color: black
+    color: black;
+    outline: none;
   }
 
   .caption {
@@ -157,6 +159,12 @@
     background-size: cover;
     min-height: 100vh;
     opacity: 85%;
+  }
+
+  
+
+  #bgimg-main {
+    background-image: url('./cincinnati-skyline.jpg');
   }
 
   #section-about, #section-projects, #section-experience, #section-contact {

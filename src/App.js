@@ -1,19 +1,19 @@
 
 import React, { Component } from 'react';
-import Icon from './static/Icon.png';
-import Headshot from './static/headshot.jpg'
-import TaxHub from './static/tax-hub.jpg';
-import OtakuRisuto from './static/OtakuRisuto.png'
-import SpacedRepetition from './static/spaced-repetition.png'
-import LinkedinCircle from './static/linkedin-circle.png'
-import MailCircle from './static/mail-circle.png'
-import PhoneCircle from './static/phone-circle.png'
-import GithubCircle from './static/github-circle.png'
+import Icon from './Icon.png';
+import Headshot from './headshot.jpg'
+import TaxHub from './tax-hub.jpg';
+import OtakuRisuto from './OtakuRisuto.png'
+import SpacedRepetition from './spaced-repetition.png'
+import LinkedinCircle from './linkedin-circle.png'
+import MailCircle from './mail-circle.png'
+import PhoneCircle from './phone-circle.png'
+import GithubCircle from './github-circle.png'
 import Resume from './BrandonWeissResume.pdf'
-import CincinnatiSkyline from './static/cincinnati-skyline.jpg'
-import CincinnatiMuseum from './static/cincinnati-museum.jpg'
-import UniversityCincinnati from './static/university-cincinnati.jpg'
-import WashingtonPark from './static/washington-park.jpg'
+import CincinnatiSkyline from './cincinnati-skyline.jpg'
+import CincinnatiMuseum from './cincinnati-museum.jpg'
+import UniversityCincinnati from './university-cincinnati.jpg'
+import WashingtonPark from './washington-park.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import './App-Desktop.css';
@@ -159,7 +159,7 @@ export default class App extends Component {
             <FontAwesomeIcon icon={faBars} className='burger-icon'/>
           </button>
         </div>
-        <div className='bgimg' id='bgimg-main' style={{backgroundImage: `url(${CincinnatiSkyline})`}}>
+        <div className='bgimg' id='bgimg-main'>
           <div className='caption'>
             <p className='border'>BRANDON WEISS</p>
           </div>

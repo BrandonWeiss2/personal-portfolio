@@ -63,7 +63,7 @@ body {
     float: left;
     border: none;
     background: none;
-
+    outline: none;
   }
 
   #jump-about, #jump-projects, #jump-experience, #jump-contact {
@@ -93,7 +93,8 @@ body {
 
   .nav-links button:visited, .nav-links button:active {
     text-decoration: none;
-    color: black
+    color: black;
+    outline: none;
   }
 
   .caption {
@@ -131,24 +132,7 @@ body {
     font-size: 25px;
     letter-spacing: 10px;
   }
-  
-
-  /* #bgimg-main {
-    background-image: url('./static/cincinnati-skyline.jpg');
-  } */
-/* 
-  #bgimg-projects {
-    background-image: url('./static/cincinnati-museum.jpg');
-  } */
-
-  /* #bgimg-experience {
-    background-image: url('./static/university-cincinnati.jpg');
-  } */
-/* 
-  #bgimg-contact {
-    background-image: url('./static/washington-park.jpg');
-  } */
-  
+    
   .bgimg {
     position: relative;
     background-attachment: fixed;
