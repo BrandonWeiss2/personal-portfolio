@@ -144,7 +144,7 @@ body {
   }
 
   #bgimg-main {
-    background-image: url(./static/images/cincinnati-skyline.jpg);
+    background-image: url('https://personal-portfolio-teal.vercel.app/static/media/washington-park.8d9c6ffc.jpg');
   }
 
   #section-about, #section-projects, #section-experience, #section-contact {
