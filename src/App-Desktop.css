@@ -144,15 +144,8 @@ body {
   }
 
   #bgimg-main {
-    background-image: url(cincinnati-skyline.jpg);
+    background-image: url(./static/images/cincinnati-skyline.jpg);
   }
-
-  #bgimg-experience {
-    background-image: url(https://odk.org/wp-content/uploads/2014/05/University-of-Cincinnati-Main-Campus-Ofer-Wolberger-for-NYT.jpg);
-  }
-
-
-  
 
   #section-about, #section-projects, #section-experience, #section-contact {
     color: #878a8b;

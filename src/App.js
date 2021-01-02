@@ -1,19 +1,19 @@
 
 import React, { Component } from 'react';
-import Icon from './Icon.png';
-import Headshot from './headshot.jpg'
-import TaxHub from './tax-hub.jpg';
-import OtakuRisuto from './OtakuRisuto.png'
-import SpacedRepetition from './spaced-repetition.png'
-import LinkedinCircle from './linkedin-circle.png'
-import MailCircle from './mail-circle.png'
-import PhoneCircle from './phone-circle.png'
-import GithubCircle from './github-circle.png'
+import Icon from './static/images/Icon.png';
+import Headshot from './static/images/headshot.jpg'
+import TaxHub from './static/images/tax-hub.jpg';
+import OtakuRisuto from './static/images/OtakuRisuto.png'
+import SpacedRepetition from './static/images/spaced-repetition.png'
+import LinkedinCircle from './static/images/linkedin-circle.png'
+import MailCircle from './static/images/mail-circle.png'
+import PhoneCircle from './static/images/phone-circle.png'
+import GithubCircle from './static/images/github-circle.png'
 import Resume from './BrandonWeissResume.pdf'
-import CincinnatiSkyline from './cincinnati-skyline.jpg'
-import CincinnatiMuseum from './cincinnati-museum.jpg'
-import UniversityCincinnati from './university-cincinnati.jpg'
-import WashingtonPark from './washington-park.jpg'
+// import CincinnatiSkyline from './cincinnati-skyline.jpg'
+import CincinnatiMuseum from './static/images/cincinnati-museum.jpg'
+import UniversityCincinnati from './static/images/university-cincinnati.jpg'
+import WashingtonPark from './static/images/washington-park.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import './App-Desktop.css';
@@ -287,7 +287,7 @@ export default class App extends Component {
             </div>
           </div>
         </div>
-        <div className='bgimg' id='bgimg-experience'>
+        <div className='bgimg' id='bgimg-experience' style={{backgroundImage: `url(${UniversityCincinnati})`}}>
           <div className='caption'>
             <span className='border'>EXPERIENCE</span>
           </div>
