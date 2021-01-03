@@ -168,8 +168,8 @@ export default class App extends Component {
           <a id='jump-about'></a>
           <div id='about'>
             <h3>ABOUT ME</h3>
-            <p><strong>Hi, I'm Brandon Weiss!</strong> Ever since taking a C++ class during my Junior year I have been yearning to get learn more about software engineering. After graduation, I got my Certified Public Accountant License and worked for Grant Thornton in their State and Local Tax department for the next two and half years. I ended up building many custom excel solutions to automate our data proccessing needs, which only increased the my desire to pursue a career in coding. I decided to enroll fulltime in Thinkful's Engineering Immersion program in August and am now ready to pursue my first position as a full-stack developer.</p>
-            <p>Here's a few technologies I've been working with recently:</p>
+            <p><strong>Hi, I'm Brandon Weiss!</strong> Ever since taking a C++ class during my Junior year I have been yearning to learn more about software engineering. After graduation, I got my Certified Public Accountant License and worked for Grant Thornton in their State and Local Tax department for the next two and half years. I ended up building many custom excel solutions to automate our data processing needs, which only increased the my desire to pursue a career in coding. I decided to enroll fulltime in Thinkful's Engineering Immersion program in August and am now ready to pursue my first position as a full-stack developer.</p>
+            <p>Here are a few technologies I've been working with recently:</p>
             <div id='technologies'>
               <ul>
                 <li>JavaScript (ES6+)</li>
@@ -322,7 +322,7 @@ export default class App extends Component {
                 <div className='education-header'>
                   <h3><span>2017-08 </span><span>University of Cincinnati</span></h3>
                   <h4>BBA: Accounting - 3.7 GPA</h4>
-                  <p>he accounting program at the UC Carl H. Lindner College of Business (Lindner) is designed to prepare students for careers in public and corporate accounting through a rigorous course of study. This includes general education requirements, as well as basic courses in all business disciplines, accounting and career exploration and development.</p>
+                  <p>The accounting program at the UC Carl H. Lindner College of Business (Lindner) is designed to prepare students for careers in public and corporate accounting through a rigorous course of study. This includes general education requirements, as well as basic courses in all business disciplines, accounting and career exploration and development.</p>
                 </div>
               </div>
             </div>
