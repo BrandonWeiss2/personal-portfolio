@@ -224,7 +224,7 @@ body {
   }
 
   .download-link:hover {
-    background-color: rgba(0,0,0, .35)
+    background-color: rgba(150, 150, 150, 0.25)
   }
 
   .project-ul {
@@ -270,7 +270,7 @@ body {
   }
 
   .active-accorion, .accordion:hover {
-    background-color: rgba(0,0,0, .35)
+    background-color: rgba(150, 150, 150, 0.25)
   }
 
   .accordion:after {

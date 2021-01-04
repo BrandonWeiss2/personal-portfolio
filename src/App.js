@@ -168,7 +168,8 @@ export default class App extends Component {
           <a id='jump-about'></a>
           <div id='about'>
             <h3>ABOUT ME</h3>
-            <p><strong>Hi, I'm Brandon Weiss!</strong> Ever since taking a C++ class during my Junior year I have been yearning to learn more about software engineering. After graduation, I got my Certified Public Accountant License and worked for Grant Thornton in their State and Local Tax department for the next two and half years. I ended up building many custom excel solutions to automate our data processing needs, which only increased the my desire to pursue a career in coding. I decided to enroll fulltime in Thinkful's Engineering Immersion program in August and am now ready to pursue my first position as a full-stack developer.</p>
+            <p><strong>Hi, I'm Brandon Weiss!</strong> Ever since taking a C++ class during my Junior year I have been yearning to learn more about software engineering. After graduation, I got my Certified Public Accountant License and worked for Grant Thornton in their State and Local Tax department for the next two and half years. I ended up building many custom excel solutions to automate our data processing needs, which only increased my desire to pursue a career in coding. I decided to enroll fulltime in Thinkful's Engineering Immersion program in August and am now ready to pursue my first position as a full-stack developer.</p>
+            <p>Some things that get me up in the morning: hot yoga classes to stay healthy, paintball for the adrenallin rush, and 90's & 00's rock music to unwind.</p>
             <p>Here are a few technologies I've been working with recently:</p>
             <div id='technologies'>
               <ul>
