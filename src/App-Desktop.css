@@ -1,3 +1,5 @@
+
+
 body {
   font: 400 15px/1.5 'Lato', sans-serif;
 }
@@ -16,23 +18,20 @@ body {
     width: 100%;
     position: fixed;
     z-index: 10;
-    background-color: none;
-    transition: background-color 200ms linear;
+    background-color: rgba(13, 21, 26, 0.78) !important;
+    backdrop-filter: blur(5px);
   }
 
   #top-nav a.burger-icon-a{
     display: none;
   }
 
-  .scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-    opacity: 0.85;
-    box-shadow: 0 8px 6px -6px #bfbfbf;
-  }
-
-  .nav-icon {
-    width: 30%;
+  .nav-name {
+    padding-left: 70px;
+    color: rgb(130, 249, 161);
+    background: -webkit-linear-gradient(rgb(176, 251, 188), rgb(130, 249, 161));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .icon {
@@ -47,17 +46,16 @@ body {
 
   .nav-links {
     float: right;
-    margin-top: -66px;
+    margin-top: -50px;
     margin-right: 60px;
   }
 
   .nav-links button {
-    color:  #595959;
-    margin-top: 14px;
-    margin-left: 20px;
-    margin-right: 20px;
+    color:  white;
+    margin-left: 10px;
+    margin-right: 10px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     letter-spacing: 2px;
     display: block;
     float: left;
@@ -71,29 +69,9 @@ body {
     top: -82px;
   }
 
-  button hr {
-    width: 100%;
-    border: none;
-    height: 2px;
-    background-color: #fff;
-    display: none;
-  }
-
-  
-  button:hover hr {
-    background-color:  #595959;
-    display: block;
-  }
-
-  .active hr {
-    background-color:  #595959;
-    display: block;
-  }
-
-
-  .nav-links button:visited, .nav-links button:active {
+  .nav-links button:visited, .nav-links button:active, .nav-links button:hover {
     text-decoration: none;
-    color: black;
+    color: rgb(130, 249, 161);
     outline: none;
   }
 
@@ -144,20 +122,47 @@ body {
   }
 
   #section-about, #section-projects, #section-experience, #section-contact {
-    color: #878a8b;
     padding: 50px 70px;
     text-align: justify;
     align-items: center;
     position: relative;
   }
 
-  #section-projects {
-    background-color: #878a8b;
+  #section-about {
+    padding: 50px 70px 25px 70px;
+    background-color: rgb(22, 33, 41);
+    display: flex;
+    flex-direction: column;
     color: white;
+  }
+  
+  #about h2 {
+  color: rgb(130, 249, 161);
+    background: -webkit-linear-gradient(rgb(176, 251, 188), rgb(130, 249, 161));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  #about p {
+    font-size: 16px;
+  }
+
+  #section-projects {
+    background-color: rgb(22, 33, 41);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 70px;
+  }
+
+  .projects-header {
+    color: rgb(130, 249, 161);
+    letter-spacing: 2px;
+    margin-bottom: 35px;
   }
 
   #section-experience {
-    background-color: #011936;
+    background-color: rgb(22, 33, 41);
     color: white;
   }
 
@@ -170,14 +175,26 @@ body {
   }
 
   #headshot {
-    max-height: 350px;
+    max-height: 200px;
     border-radius: 50%;
-    margin-left: 3%;
+    margin: 50px auto 10px auto;
   }
 
   #technologies {
     display: flex;
+    font-size: 14px;
   }
+
+  #technologies ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
 
   #tax-hub-img, #otaku-risuto-img, #spaced-repetition-img {
     border: 2px solid white;
@@ -200,9 +217,26 @@ body {
   }
   
   .project-content {
-    flex: 2;
-    margin-right: 10px
+    margin-left: 55px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
   }
+
+  .project-content h3 {
+    margin-top: 0;
+    margin-bottom: 4px;
+    color:  rgb(130, 249, 161);
+  }
+
+  .project-content h4 {
+    margin-bottom: 4px;
+  }
+  
+  .project-content p {
+    margin: 0;
+  }
+
 
   .img-wrapper {
     flex: 1;
@@ -231,6 +265,25 @@ body {
     margin-top: 0;
   }
 
+  .project-button-container {
+    margin: 20px auto 0 auto;
+    
+  }
+
+  .education-experience-container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .education-wrapper {
+    flex: 1;
+  }
+
+  .experience-wrapper {
+    flex: 1;
+  }
+
+
   #education-header, #experience-button {
     background-color: #282e34;
     color: #ddd;
@@ -247,9 +300,6 @@ body {
     justify-content: space-between;
   }
 
-  #education-button:hover, #experience-button:hover {
-    background-color: #2c333a;
-  }
 
   .hidden {
     display: none;
@@ -271,18 +321,6 @@ body {
 
   .active-accorion, .accordion:hover {
     background-color: rgba(150, 150, 150, 0.25)
-  }
-
-  .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
-  }
-
-  .active-accorion:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
   }
 
   .panel {
@@ -310,6 +348,109 @@ body {
   #section-experience li, #section-projects p, #section-about p {
     text-align: left;
   }
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+.slide-wrapper {
+  display: flex;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  margin-left: 39.5px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -35px;
+  padding: 5px 10px 5px 10px;
+  color: rgb(130, 249, 161);
+  font-weight: bold;
+  font-size: 36px;
+  transition: 0.6s ease;
+  border-radius: 3px 0 0 3px;
+  user-select: none;
+}
+
+.next {
+  border-radius: 0 3px 3px 0 !important;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color:  rgba(53, 88, 110, 0.541)
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgb(130, 249, 161)
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 
