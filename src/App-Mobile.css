@@ -1,4 +1,37 @@
-@media only screen and (max-width: 869px) {
+@media only screen and (max-width: 1100px) {
+  .slide-wrapper {
+    flex-direction: column;
+    margin-right: 39.5px;
+  }
+
+  .slide-wrapper img {
+    margin: auto;
+    width: 65% !important;
+  }
+
+  .project-content h3 {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .project-content h4 {
+    text-align: center;
+  }
+
+  .project-technologies {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .nav-name {
+    margin-left: 20px;
+    color: rgb(130, 249, 161);
+    background: -webkit-linear-gradient(rgb(176, 251, 188), rgb(130, 249, 161));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   ul {
     padding: 0 0 0 20px;
   }
@@ -15,10 +48,10 @@
   .burger-icon-a {
     float: right;
     position: absolute;
-    top: 10px;
+    top: 20px;
     right: 20px;
     font-size: 40px;
-    color: #777;
+    color:rgb(130, 249, 161);
     padding: 0px 5px;
     border: none;
     outline: none;
@@ -31,29 +64,28 @@
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     font-size: 40px;
-    color: #777;
+    color: white;
   }
 
   .burger-icon:before {
     content: "\f0c9";
   }
 
-  #top-nav {
+  .top-nav {
     width: 100%;
     position: fixed;
     z-index: 10;
-    transition: background-color 200ms linear;
-    
+    background-color: rgba(13, 21, 26, 0.78) !important;
+    backdrop-filter: blur(5px);
+    height: auto;
   }
 
-  #top-nav.active {
-    background-color: #fff !important;
-    opacity: 0.85;
-    transition: background-color 200ms linear;
-    border-color: #ffffff;
-    -webkit-box-shadow: 0 8px 6px -6px #bfbfbf;
-    -moz-box-shadow: 0 8px 6px -6px #bfbfbf;
-    box-shadow: 0 8px 6px -6px #bfbfbf;
+  #top-nav.active .burger-icon:hover{
+    color:  rgb(130, 249, 161)
+  }
+
+  .burger-icon:hover {
+    color: rgb(130, 249, 161)
   }
 
   .scrolled {
@@ -74,11 +106,12 @@
   }
 
   .nav-links {
+    display: none;
     transition: background-color 200ms linear;
   }
 
   .nav-links button {
-    color: #777;
+    color: white;
     text-decoration: none;
     padding-left: 40px;
     font-size: 25px;
@@ -94,6 +127,7 @@
   
   .nav-links button:hover {
     background-color: rgba(124, 124, 124, 0.30);
+    color: rgb(130, 249, 161);
   }
 
   #jump-about, #jump-projects, #jump-experience, #jump-contact {
@@ -161,42 +195,47 @@
     opacity: .85;
   }
 
-  #section-about, #section-projects, #section-experience, #section-contact {
-    color: #878a8b;
-    padding: 50px 20px;
+  #section-about, #section-projects {
+    color: white;
     text-align: justify;
     align-items: center;
     position: relative;
+    background-color: rgb(22, 33, 41);
   }
 
-  #section-projects {
-    background-color: #878a8b;
-    color: white;
+  #section-about {
+    padding: 50px 20px 25px 20px;
   }
 
-  #section-experience {
-    background-color: #011936;
-    color: white;
+  #section-project {
+    padding: 25px 70px;
   }
 
-
-  #section-about, #section-projects, #section-contact {
+  #section-about, #section-projects {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   
   #section-contact #about {
     height: 1vh
   }
 
+  #about h2 {
+    color: rgb(130, 249, 161);
+    background: -webkit-linear-gradient(rgb(176, 251, 188), rgb(130, 249, 161));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   #headshot {
-    max-height: 350px;
+    max-height: 200px;
     border-radius: 50%;
-    max-width: 60%;
+    margin: 50px auto 10px auto;
   }
 
   #technologies {
     display: flex;
+    font-size: 14px;
   }
 
   #tax-hub-img, #otaku-risuto-img, #spaced-repetition-img {
@@ -225,7 +264,9 @@
   
   .project-content {
     flex: 2;
-    margin-right: 10px
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
   }
 
   .img-wrapper {
@@ -338,6 +379,54 @@
   
   #section-projects p {
     text-align: left;
+  }
+
+  .projects-header {
+    color: rgb(130, 249, 161);
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+  }
+
+  .slide-wrapper img {
+    margin: auto;
+    width: 85% !important;
+  }
+
+  .project-content h3 {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(130, 249, 161)
+  }
+
+  .project-technologies {
+    margin: auto;
+  }
+
+  .project-content h4 {
+    text-align: center;
+    margin-bottom: 4px;
+  }
+
+  #technologies ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+  }
+
+  .project-button-container {
+    margin: 20px auto 0 auto;
+  }
+
+  .project-content p {
+    margin: 0;
+  }
+
+  #nav-experience {
+    padding-bottom: 5px;
   }
 }
 

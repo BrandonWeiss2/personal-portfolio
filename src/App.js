@@ -155,7 +155,7 @@ export default class App extends Component {
                   <h3>TaxHub</h3>
                   <p>TaxHub helps tax professionals organize, manage, and track the progress of all the engagements and tax filings they are responsible for.</p>
                   <h4><strong>Technologies:</strong></h4>
-                  <div id='technologies'>
+                  <div id='technologies' className='project-technologies'>
                     <ul className='project-ul'>
                       <li>JavaScript (ES6+)</li>
                       <li>HTML5</li>
@@ -185,7 +185,7 @@ export default class App extends Component {
                   <h3>OtakuRisuto</h3>
                   <p>OtakuRisuto users can track all the anime that have put on the backlog, discover new anime, and help them decided what to watch next.</p>
                   <h4><strong>Technologies:</strong></h4>
-                  <div id='technologies'>
+                  <div id='technologies' className='project-technologies'>
                     <ul>
                       <li>JavaScript (ES6+)</li>
                       <li>HTML5</li>
@@ -214,7 +214,7 @@ export default class App extends Component {
                   <h3>Spaced Repetition</h3>
                   <p>Spaced Repetition is a language learning app that utilizes the spaced repetition learning algorithm to help our users learn.</p>
                   <h4><strong>Technologies:</strong></h4>
-                  <div id='technologies'>
+                  <div id='technologies' className='project-technologies'>
                     <ul>
                       <li>JavaScript (ES6+)</li>
                       <li>HTML5</li>

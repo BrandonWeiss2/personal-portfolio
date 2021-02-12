@@ -121,7 +121,7 @@ body {
     opacity: .85;
   }
 
-  #section-about, #section-projects, #section-experience, #section-contact {
+  #section-about, #section-projects {
     padding: 50px 70px;
     text-align: justify;
     align-items: center;
