@@ -2,7 +2,16 @@
 
 body {
   font: 400 15px/1.5 'Lato', sans-serif;
+  background-color: rgb(22, 33, 41);
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: auto;
+}
+
 
 @media only screen and (min-width: 870px) {
   div {
@@ -20,6 +29,11 @@ body {
     z-index: 10;
     background-color: rgba(13, 21, 26, 0.78) !important;
     backdrop-filter: blur(5px);
+  }
+
+  .top-nav-wrapper {
+    max-width: 1200px;
+    margin: auto;
   }
 
   #top-nav a.burger-icon-a{
@@ -126,6 +140,7 @@ body {
     text-align: justify;
     align-items: center;
     position: relative;
+    margin: auto;
   }
 
   #section-about {
@@ -231,6 +246,8 @@ body {
 
   .project-content h4 {
     margin-bottom: 4px;
+    text-align: center;
+
   }
   
   .project-content p {
@@ -268,6 +285,10 @@ body {
   .project-button-container {
     margin: 20px auto 0 auto;
     
+  }
+
+  .project-technologies {
+    margin: auto;
   }
 
   .education-experience-container {
